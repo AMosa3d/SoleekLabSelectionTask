@@ -1,6 +1,8 @@
 # SoleekLabSelectionTask
 A Selection task that is a simple Firebase Authentication app with simple api to view countries on the main screen.
 
+Check out Soleek's website : https://www.soleeklab.com/
+
 # Screens
 ## 0 - Splash Screen
 [<img src="assets/splash.png" width=200>](splash.png)
