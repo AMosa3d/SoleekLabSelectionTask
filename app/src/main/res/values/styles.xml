@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionOverflowMenuStyle">@style/overflowMenu</item>
+        <item name="android:itemTextAppearance">@style/menuTextAppearance</item>
+    </style>
+
+    <style name="AppTheme.LightMode" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary_LightMode</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_LightMode</item>
+        <item name="colorAccent">@color/colorAccent_LightMode</item>
+        <item name="android:windowBackground">@color/colorBackground_LightMode</item>
+        <item name="separator">@color/colorSeparator_LightMode</item>
+
+    </style>
+
+    <style name="AppTheme.DarkMode" parent="AppTheme">
+
+        <item name="colorPrimary">@color/colorPrimary_DarkMode</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_DarkMode</item>
+        <item name="colorAccent">@color/colorAccent_DarkMode</item>
+        <item name="android:windowBackground">@color/colorBackground_DarkMode</item>
+        <item name="android:textColor">@color/colorText_DarkMode</item>
+        <item name="separator">@color/colorSeparator_DarkMode</item>
+
+    </style>
+    
+    <!-- Splash Screen -->
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="overflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="menuTextAppearance">
+        <item name="android:textColor">@color/colorMenuItem</item>
+    </style>
+
+</resources>

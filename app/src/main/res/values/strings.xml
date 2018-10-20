@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Soleek Lab Selection Task</string>
+    <string name="logout_item_string">Logout</string>
+    <string name="view_mode_item_string">View Mode</string>
+    <string name="email_edit_text_hint">Email</string>
+    <string name="password_edit_text_hint">Password</string>
+    <string name="password_confirmation_edit_text_hint">Confirm Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="registration_button_text">Register</string>
+    <string name="login_text_view_text">Already have account? Sign In</string>
+    <string name="registration_text_view_text">First timer? Sign Up</string>
+    <string name="email_required_text">Please, Enter your Email</string>
+    <string name="password_required_text">Please, Enter Your Password</string>
+    <string name="confirm_password_required_text">Please, Confirm Your Password</string>
+    <string name="unmatched_passwords_text">Your Passwords Doesn\'t Match</string>
+    <string name="invalid_login_text">Invalid Email or Password</string>
+    <string name="login_failed_text">Login Failed : </string>
+    <string name="registration_failed_text">Registration Failed : </string>
+    <string name="registration_completed_text">Your Account Has Been Created Successfully, Welcome To The Party</string>
+
+</resources>
